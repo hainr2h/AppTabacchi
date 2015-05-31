@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21587CEA678B1C1019F715D6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3748AF9387872E6C0E18F3CF /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B219ECD91B19D5B900B18B90 /* LocationList.csv in Resources */ = {isa = PBXBuildFile; fileRef = B219ECD81B19D5B900B18B90 /* LocationList.csv */; };
+		B219ECDD1B19D7F700B18B90 /* ViewMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219ECDC1B19D7F700B18B90 /* ViewMaps.swift */; };
+		B219ECDF1B19EA3000B18B90 /* ViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219ECDE1B19EA3000B18B90 /* ViewList.swift */; };
+		B219ECE11B19EA9F00B18B90 /* ViewHealt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219ECE01B19EA9F00B18B90 /* ViewHealt.swift */; };
+		B219ECE51B19EB4B00B18B90 /* ViewHelpUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219ECE41B19EB4B00B18B90 /* ViewHelpUS.swift */; };
 		B2B8928F1B18DD2B0005DDD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8928E1B18DD2B0005DDD1 /* AppDelegate.swift */; };
 		B2B892911B18DD2B0005DDD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B892901B18DD2B0005DDD1 /* ViewController.swift */; };
 		B2B892941B18DD2B0005DDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B892921B18DD2B0005DDD1 /* Main.storyboard */; };
 		B2B892961B18DD2B0005DDD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B892951B18DD2B0005DDD1 /* Images.xcassets */; };
 		B2B892991B18DD2B0005DDD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B892971B18DD2B0005DDD1 /* LaunchScreen.xib */; };
 		B2B892A51B18DD2B0005DDD1 /* AppTabacchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B892A41B18DD2B0005DDD1 /* AppTabacchiTests.swift */; };
+		B2EB010A1B1B595400FF47FF /* LocationList.csv in Resources */ = {isa = PBXBuildFile; fileRef = B2EB01091B1B595400FF47FF /* LocationList.csv */; };
+		F0C00469F9E1B0F96EAF77D7 /* Pods_AppTabacchi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2BD13ED153FC54D9A52452 /* Pods_AppTabacchi.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3748AF9387872E6C0E18F3CF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99393BDD1DC9E40A93FB43E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B219ECD81B19D5B900B18B90 /* LocationList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LocationList.csv; path = ../../OLDFTabbacchi/LocationList.csv; sourceTree = "<group>"; };
+		B219ECDC1B19D7F700B18B90 /* ViewMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMaps.swift; sourceTree = "<group>"; };
+		B219ECDE1B19EA3000B18B90 /* ViewList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewList.swift; sourceTree = "<group>"; };
+		B219ECE01B19EA9F00B18B90 /* ViewHealt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHealt.swift; sourceTree = "<group>"; };
+		B219ECE41B19EB4B00B18B90 /* ViewHelpUS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHelpUS.swift; sourceTree = "<group>"; };
 		B2B892891B18DD2B0005DDD1 /* AppTabacchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTabacchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B8928D1B18DD2B0005DDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2B8928E1B18DD2B0005DDD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +51,10 @@
 		B2B8929E1B18DD2B0005DDD1 /* AppTabacchiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTabacchiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B892A31B18DD2B0005DDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2B892A41B18DD2B0005DDD1 /* AppTabacchiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabacchiTests.swift; sourceTree = "<group>"; };
+		B2EB01031B1B563D00FF47FF /* AppTabacchi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppTabacchi-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2EB01091B1B595400FF47FF /* LocationList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LocationList.csv; path = ../../OLDFTabbacchi/LocationList.csv; sourceTree = "<group>"; };
+		BC2BD13ED153FC54D9A52452 /* Pods_AppTabacchi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTabacchi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF85844E0F9CEBDF8B7D3528 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21587CEA678B1C1019F715D6 /* Pods.framework in Frameworks */,
+				F0C00469F9E1B0F96EAF77D7 /* Pods_AppTabacchi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C3108F5A3EC0CB6881B974D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99393BDD1DC9E40A93FB43E2 /* Pods.debug.xcconfig */,
+				CF85844E0F9CEBDF8B7D3528 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B2B892801B18DD2B0005DDD1 = {
 			isa = PBXGroup;
 			children = (
 				B2B8928B1B18DD2B0005DDD1 /* AppTabacchi */,
 				B2B892A11B18DD2B0005DDD1 /* AppTabacchiTests */,
 				B2B8928A1B18DD2B0005DDD1 /* Products */,
+				9C3108F5A3EC0CB6881B974D /* Pods */,
+				D5BAB18BA4124A0C9101DCE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +109,18 @@
 		B2B8928B1B18DD2B0005DDD1 /* AppTabacchi */ = {
 			isa = PBXGroup;
 			children = (
+				B219ECD81B19D5B900B18B90 /* LocationList.csv */,
 				B2B8928E1B18DD2B0005DDD1 /* AppDelegate.swift */,
+				B219ECE41B19EB4B00B18B90 /* ViewHelpUS.swift */,
 				B2B892901B18DD2B0005DDD1 /* ViewController.swift */,
+				B219ECE01B19EA9F00B18B90 /* ViewHealt.swift */,
+				B219ECDC1B19D7F700B18B90 /* ViewMaps.swift */,
+				B219ECDE1B19EA3000B18B90 /* ViewList.swift */,
 				B2B892921B18DD2B0005DDD1 /* Main.storyboard */,
 				B2B892951B18DD2B0005DDD1 /* Images.xcassets */,
 				B2B892971B18DD2B0005DDD1 /* LaunchScreen.xib */,
 				B2B8928C1B18DD2B0005DDD1 /* Supporting Files */,
+				B2EB01031B1B563D00FF47FF /* AppTabacchi-Bridging-Header.h */,
 			);
 			path = AppTabacchi;
 			sourceTree = "<group>";
@@ -90,6 +128,7 @@
 		B2B8928C1B18DD2B0005DDD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2EB01091B1B595400FF47FF /* LocationList.csv */,
 				B2B8928D1B18DD2B0005DDD1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +151,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D5BAB18BA4124A0C9101DCE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3748AF9387872E6C0E18F3CF /* Pods.framework */,
+				BC2BD13ED153FC54D9A52452 /* Pods_AppTabacchi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2B892A81B18DD2B0005DDD1 /* Build configuration list for PBXNativeTarget "AppTabacchi" */;
 			buildPhases = (
+				327C0D167487B27A3D31BFAF /* Check Pods Manifest.lock */,
 				B2B892851B18DD2B0005DDD1 /* Sources */,
 				B2B892861B18DD2B0005DDD1 /* Frameworks */,
 				B2B892871B18DD2B0005DDD1 /* Resources */,
+				02489ECB169FE1373D06E015 /* Embed Pods Frameworks */,
+				175B5A9C99DFB4ED9DCA23BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EB010A1B1B595400FF47FF /* LocationList.csv in Resources */,
 				B2B892941B18DD2B0005DDD1 /* Main.storyboard in Resources */,
 				B2B892991B18DD2B0005DDD1 /* LaunchScreen.xib in Resources */,
 				B2B892961B18DD2B0005DDD1 /* Images.xcassets in Resources */,
+				B219ECD91B19D5B900B18B90 /* LocationList.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +260,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02489ECB169FE1373D06E015 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppTabacchi/Pods-AppTabacchi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		175B5A9C99DFB4ED9DCA23BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppTabacchi/Pods-AppTabacchi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		327C0D167487B27A3D31BFAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2B892851B18DD2B0005DDD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B219ECDF1B19EA3000B18B90 /* ViewList.swift in Sources */,
+				B219ECE51B19EB4B00B18B90 /* ViewHelpUS.swift in Sources */,
 				B2B892911B18DD2B0005DDD1 /* ViewController.swift in Sources */,
 				B2B8928F1B18DD2B0005DDD1 /* AppDelegate.swift in Sources */,
+				B219ECDD1B19D7F700B18B90 /* ViewMaps.swift in Sources */,
+				B219ECE11B19EA9F00B18B90 /* ViewHealt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +445,28 @@
 		};
 		B2B892A91B18DD2B0005DDD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99393BDD1DC9E40A93FB43E2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppTabacchi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppTabacchi/AppTabacchi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B2B892AA1B18DD2B0005DDD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF85844E0F9CEBDF8B7D3528 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AppTabacchi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppTabacchi/AppTabacchi-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +523,7 @@
 				B2B892AA1B18DD2B0005DDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2B892AB1B18DD2B0005DDD1 /* Build configuration list for PBXNativeTarget "AppTabacchiTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +532,7 @@
 				B2B892AD1B18DD2B0005DDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
